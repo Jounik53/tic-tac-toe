@@ -49,6 +49,16 @@ namespace Helloapp
             }
         }
 
+        public void Click(object sender, EventArgs e)
+        {
+            if (sender is PictureBox pictureBox)
+            {
+                LoadImage(pictureBox.Name);
+                pictureBox.Enabled = false;
+                ChangePlayer();
+            }
+        }
+
         public Chess()
         {
             InitializeComponent();
@@ -71,69 +81,6 @@ namespace Helloapp
         {
             var image = Image.FromFile(Onova);
             e.Graphics.DrawImage(image, 0, 25);
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            LoadImage("pictureBox1");
-            pictureBox1.Enabled = false;
-            ChangePlayer();
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            LoadImage("pictureBox2");
-            pictureBox2.Enabled = false;
-            ChangePlayer();
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            LoadImage("pictureBox3");
-            pictureBox3.Enabled = false;
-            ChangePlayer();
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            LoadImage("pictureBox4");
-            pictureBox4.Enabled = false;
-            ChangePlayer();
-        }
-
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-            LoadImage("pictureBox5");
-            pictureBox5.Enabled = false;
-            ChangePlayer();
-        }
-
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-            LoadImage("pictureBox6");
-            pictureBox6.Enabled = false;
-            ChangePlayer();
-        }
-
-        private void pictureBox7_Click(object sender, EventArgs e)
-        {
-            LoadImage("pictureBox7");
-            pictureBox7.Enabled = false;
-            ChangePlayer();
-        }
-
-        private void pictureBox8_Click(object sender, EventArgs e)
-        {
-            LoadImage("pictureBox8");
-            pictureBox8.Enabled = false;
-            ChangePlayer();
-        }
-
-        private void pictureBox9_Click(object sender, EventArgs e)
-        {
-            LoadImage("pictureBox9");
-            pictureBox9.Enabled = false;
-            ChangePlayer();
         }
     }
 }

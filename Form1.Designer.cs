@@ -111,7 +111,7 @@ namespace Helloapp
             this.pictureBox1.Size = new System.Drawing.Size(97, 99);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox1.Click += new System.EventHandler(this.Click);
             // 
             // pictureBox2
             // 
@@ -120,7 +120,7 @@ namespace Helloapp
             this.pictureBox2.Size = new System.Drawing.Size(97, 99);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.pictureBox2.Click += new System.EventHandler(this.Click);
             // 
             // pictureBox3
             // 
@@ -129,7 +129,7 @@ namespace Helloapp
             this.pictureBox3.Size = new System.Drawing.Size(97, 99);
             this.pictureBox3.TabIndex = 1;
             this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.pictureBox3.Click += new System.EventHandler(this.Click);
             // 
             // pictureBox4
             // 
@@ -138,7 +138,7 @@ namespace Helloapp
             this.pictureBox4.Size = new System.Drawing.Size(97, 99);
             this.pictureBox4.TabIndex = 1;
             this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            this.pictureBox4.Click += new System.EventHandler(this.Click);
             // 
             // pictureBox5
             // 
@@ -147,7 +147,7 @@ namespace Helloapp
             this.pictureBox5.Size = new System.Drawing.Size(97, 99);
             this.pictureBox5.TabIndex = 1;
             this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
+            this.pictureBox5.Click += new System.EventHandler(this.Click);
             // 
             // pictureBox6
             // 
@@ -156,7 +156,7 @@ namespace Helloapp
             this.pictureBox6.Size = new System.Drawing.Size(97, 99);
             this.pictureBox6.TabIndex = 1;
             this.pictureBox6.TabStop = false;
-            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            this.pictureBox6.Click += new System.EventHandler(this.Click);
             // 
             // pictureBox7
             // 
@@ -165,7 +165,7 @@ namespace Helloapp
             this.pictureBox7.Size = new System.Drawing.Size(97, 99);
             this.pictureBox7.TabIndex = 1;
             this.pictureBox7.TabStop = false;
-            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
+            this.pictureBox7.Click += new System.EventHandler(this.Click);
             // 
             // pictureBox8
             // 
@@ -174,7 +174,7 @@ namespace Helloapp
             this.pictureBox8.Size = new System.Drawing.Size(97, 99);
             this.pictureBox8.TabIndex = 1;
             this.pictureBox8.TabStop = false;
-            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
+            this.pictureBox8.Click += new System.EventHandler(this.Click);
             // 
             // pictureBox9
             // 
@@ -183,7 +183,7 @@ namespace Helloapp
             this.pictureBox9.Size = new System.Drawing.Size(97, 99);
             this.pictureBox9.TabIndex = 1;
             this.pictureBox9.TabStop = false;
-            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
+            this.pictureBox9.Click += new System.EventHandler(this.Click);
             // 
             // Chess
             // 
