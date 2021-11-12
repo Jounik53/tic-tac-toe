@@ -111,7 +111,7 @@ namespace Helloapp
 
         private void ClearBoard(bool newGame = false)
         {
-            for (int i = 1; i < 9; i++)
+            for (int i = 1; i <= 9; i++)
             {
                 var control = this.Controls.Find($"PictureBox{i.ToString()}", true).FirstOrDefault();
                 if (control is PictureBox pictureBox)
