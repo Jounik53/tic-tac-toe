@@ -85,18 +85,24 @@ namespace Helloapp
                 if (boardFirstPlayer.SequenceEqual(win_first[i]))
                 {
                     ClearBoard();
-                    WinMessage("Winner First player!");
+                    WinOrEndGameMessage("Winner First player!");
                 }
 
                 if (boardSecondPlayer.SequenceEqual(win_second[i]))
                 {
                     ClearBoard();
-                    WinMessage("Winner Second player!");
+                    WinOrEndGameMessage("Winner Second player!");
                 }
+            }
+
+            if (!Board.Contains(0))
+            {
+                ClearBoard();
+                WinOrEndGameMessage("The moves are over. Draw!");
             }
         }
 
-        private void WinMessage(string message)
+        private void WinOrEndGameMessage(string message)
         {
             var control = this.Controls.Find("label1", true).FirstOrDefault();
             if (control != null)
